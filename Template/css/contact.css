@@ -1,0 +1,19 @@
+.contact-content {
+    height: 350px;
+    display: flex;
+    margin-top: 32px;
+    padding: 19px;
+    background-image: url('../nature-full-screen.jpg');
+    width: 97.5%;
+    opacity: 0.75;
+}
+
+.contact-content::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 500%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 10px;
+}
